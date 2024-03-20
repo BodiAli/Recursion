@@ -3,7 +3,7 @@ function fibsRec(n) {
     return [0];
   } else if (n === 2) {
     return [0, 1];
-  } else if (n < 0) {
+  } else if (n <= 0) {
     return "Please a number bigger than 0";
   } else {
     let fibSeq = fibsRec(n - 1);
